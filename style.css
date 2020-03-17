@@ -1,3 +1,13 @@
+.container-fluid{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 150vh;
+}
+
+
+/* Navbar */
+
 .logobar{
     position: relative;
     background-color:rgb(1, 133, 133);
@@ -10,34 +20,58 @@
 }
 
 #navbar{
+    width: 100%;
+    height: 5vh;
     position: sticky;
     top: 0;
-    align-content: center;
-    text-align: center;
     background-color:white;
     color: black;
     border-width: 5px 0px 5px 0px;
     border-color: black;
     border-style: groove;
+    z-index: 100;
+    margin: 0;
 }
 
-.collapse{
-    position: relative;
-    left: 32%;
-    color: black;
-    align-content: center;
+.navbar-nav{
+    position: absolute;
+    height: 30px;
+    left: 10%;
+    margin: 0;
 }
 
 .nav-item{
     font-weight: bold;
     width: 100px;
-    padding-top: 0;
-    padding-bottom: 0;
+    padding: 0px 120px 0px 120px;
+    margin: 0;
 }
 
-.container-fluid{
-    margin: 0;
-    padding: 0;
+/*  end navbar  */
+
+/* jumbotron */
+
+.jumbotron{
+    position: relative;
+    background-image: url(Project.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 60%;
     width: 100%;
-    height: 10000px;
+    text-align: center;
+    text-decoration: solid;
+    opacity: .8;
+    padding: 0;
+    margin: 0;
 }
+
+#jumbocontainer{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 0;
+}
+
+/* end jumbrotron */
