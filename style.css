@@ -230,17 +230,97 @@ button:hover:active:after{
 
 #Testimonialcontent{
     position: absolute;
-    top: 50%;
+    top: 15%;
+    padding-right: 20%;
+    padding-left: 20%;
+    font-size: 24px;
 }
 
 #testimonialTitle{   
     position: absolute;
+    top: -80px;
     right: 41%;
     bottom: 550%;
-    
+    color: white;  
 }
 
+.carousel-control-prev{
+    position: absolute;
+    left: -10%;
+}
+
+.carousel-control-next{
+    position: absolute;
+    right: -10%;
+}
 /* end testimonial*/
+
+/* Begin footer*/
+h1{
+    margin: 0;
+    padding: 0;
+}
+
+.footer{
+    height: 10%;
+    position: relative;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+    border-color: white;
+    border-style: solid;
+    text-align: center;
+}
+
+.footercontent{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.footernav{
+    width: 98.7vw;
+}
+
+.footernav-item{
+    font-weight: bold;
+    width: 100px;
+    padding: 0px 120px 0px 120px;
+    margin: 0;
+    display: block;
+}
+
+.footercopyright{
+    position: absolute;
+    top: 130%;
+    left: 45%;
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    padding-top: 30px;
+    padding-left: 100px;
+}
+
+.nav-link{
+    color:rgb(1, 133, 133);
+}
+
+.nav-link:hover{
+    border: none;
+    outline: none;
+    color: white;
+    text-decoration: none;
+    outline: none;
+}
+
+/*End footer*/
+
+
 /*END HOME PAGE*/
 
 /* ABOUT PAGE */
