@@ -18,7 +18,7 @@ button:hover:active:after{
     text-decoration: none;
 }
 
-#contentwrap{
+#homecontentwrap{
     height: 150vh;
 }
 
@@ -325,6 +325,10 @@ h1{
 
 /* ABOUT PAGE */
 
+#aboutcontentwrap{
+    height: 150vh;
+}
+
 .aboutwrap{
     position: relative;
     height: 100%;
@@ -343,6 +347,8 @@ h1{
     margin-left: 100px;
     margin-right: 100px;
     padding: 50px;
+    width: 83%;
+    height: 100%;
 }
 
 .abouttitle{
@@ -353,6 +359,10 @@ h1{
 /* END ABOUT PAGE */
 
 /* BEGIN CONTACT PAGE */
+#contactcontentwrap{
+    height: 150vh;
+}
+
 .contactwrap{
     position: relative;
     height: 100%;
@@ -372,6 +382,7 @@ h1{
     margin-right: 100px;
     padding: 50px;
     width: 83%;
+    height: 100%;
 }
 
 .contactcard{
@@ -390,6 +401,10 @@ h1{
 /*END CONTACT PAGE */
 
 /* BEGIN NEWS PAGE */
+#newscontentwrap{
+    height: 150vh;
+}
+
 .newswrap{
     position: relative;
     height: 100%;
@@ -408,6 +423,8 @@ h1{
     margin-left: 100px;
     margin-right: 100px;
     padding: 50px;
+    width: 83%;
+    height: 100%;
 }
 
 /* END NEW PAGE */
