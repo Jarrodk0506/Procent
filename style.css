@@ -95,13 +95,15 @@ button:hover:active:after{
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
-    color: white;
+    color: rgb(211, 211, 211);
     padding: 0;
 }
 
 #jumbocontent{
     position: absolute;
-    top: 15%;
+    top: 22%;
+    height: 60%;
+    font-weight: bold;
 }
 
 
@@ -122,7 +124,7 @@ button:hover:active:after{
 
 .glow-on-hover:before {
     content: '';
-    background: linear-gradient(45deg, gray, rgb(1, 133, 133), gray, rgb(1, 133, 133), gray);
+    background: linear-gradient(45deg, gray, rgb(1, 133, 133), rgb(255, 255, 255), rgb(1, 133, 133), gray);
     position: absolute;
     top: -2px;
     left:-2px;
@@ -189,32 +191,111 @@ button:hover:active:after{
     height: 40%;
 }
 
+.estimateheader{
+    text-decoration: underline;
+    position: absolute;
+    left: 17%;
+}
+
+.estimatecontent{
+    position: absolute;
+    float: left;
+    width: 40%;
+    height: 100%;
+    left: 5%;
+    top: 25%;
+}
+
+.estimateimg{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    opacity: .8;
+}
+
+#estimatebutton{
+    position: absolute;
+    left: 15%;
+    top: 75%;
+}
+
 /* end estimates*/
 
-/* installation jumbotron */
+/* billing jumbotron */
 
-#Installation{
+#billing{
     position: relative;
-    background-color: rgb(144, 95, 95);
+    background-color: rgb(1, 133, 133, .5);
     height: 40%;
 }
 
-#installationcontent{
+#billingcontent{
     position: absolute;
+    height: 70%;
+    width: 80%;
+    left: 13%;
+    top: 15%;
 }
 
-#installbutton{
-    left: 100px;
-    bottom: 5px;
+.billingheader{
+    position: absolute;
+    left: 40%;
+    top: -5%;
+    text-decoration: underline;
 }
-/* end installation*/
+
+.billingcontent{
+    position: absolute;
+    top: 25%;
+}
+
+#billingbutton{
+    position: absolute;
+    left: 35%;
+    top: 80%;
+    background-color: black;
+}
+/* end billing*/
 
 /* Inventory jumbotron */
 
-#Inventory{
+#inventory{
     position: relative;
     background-color: rgb(173, 173, 173);
     height: 40%;
+}
+
+
+.inventoryheader{
+    text-decoration: underline;
+    position: absolute;
+    right: 15%;
+    z-index: 1;
+}
+
+.inventorycontent{
+    position: absolute;
+    float: left;
+    width: 40%;
+    height: 100%;
+    right: 5%;
+    top: 17%;
+    z-index: 1;
+}
+
+#inventorybutton{
+    position: absolute;
+    right: 16%;
+    top: 80%;
+}
+
+.inventoryimg{
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    
 }
 
 /* end Inventory*/
@@ -361,6 +442,11 @@ h1{
 /* BEGIN CONTACT PAGE */
 #contactcontentwrap{
     height: 150vh;
+}
+
+.contacttitle{
+    text-decoration: underline;
+    padding-bottom: 10px;
 }
 
 .contactwrap{
