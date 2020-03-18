@@ -1,3 +1,7 @@
+html{
+    min-height: 100vh;
+}
+
 button{
     outline: none;
     text-decoration: none;
@@ -19,14 +23,16 @@ button:hover:active:after{
 }
 
 #homecontentwrap{
+    position: absolute;
     height: 150vh;
+    width: 100%
 }
 
 .container-fluid{
     margin: 0;
     padding: 0;
     width: 100%;
-   
+    height: 100%;
 }
 
 
@@ -41,13 +47,15 @@ button:hover:active:after{
     width: 100%;
     height: 69px;
     text-align: center;
+    display: inline-block;
+
 }
 
-#navbar{
+#homenavbar{
     width: 100%;
-    height: 7vh;
-    position: sticky;
-    top: 0;
+    height: 4rem;
+    position: absolute;
+    top: 5.2%;
     background-color:white;
     color: black;
     border-width: 5px 0px 5px 0px;
@@ -81,8 +89,9 @@ button:hover:active:after{
     background-image: url(Project.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 58.1%;
+    height: 62%;
     width: 100%;
+    bottom: -4.5%;
     text-align: center;
     text-decoration: solid;
     opacity: .8;
@@ -317,6 +326,7 @@ button:hover:active:after{
     padding-right: 20%;
     padding-left: 20%;
     font-size: 24px;
+    color:white;
 }
 
 #testimonialTitle{   
@@ -344,8 +354,8 @@ h1{
     padding: 0;
 }
 
-.footer{
-    height: 10%;
+#homefooter{
+    height: 8rem;
     position: relative;
     background-color: black;
     color: white;
@@ -408,16 +418,39 @@ h1{
 /*END HOME PAGE*/
 
 /* ABOUT PAGE */
+#aboutcontainer{
+    min-height: 100vh;
+    position: relative;
+}
+
 
 #aboutcontentwrap{
-    height: 150vh;
+    position: absolute;
+    min-height: 100vh;
+    width: 100%;
+}
+
+#aboutnavbar{
+    width: 100%;
+    height: 4rem;
+    position: absolute;
+    top: 7.8%;
+    background-color:white;
+    color: black;
+    border-width: 5px 0px 5px 0px;
+    border-color: black;
+    border-style: groove;
+    z-index: 100;
+    margin: 0;
 }
 
 .aboutwrap{
-    position: relative;
-    height: 100%;
+    position: absolute;
+    top: 14%;
+    min-height: 100vh;
+    width: 100%;
     color:white;
-    background-color: rgb(1, 133, 133);
+    background-color: rgb(1, 133, 133, .5);
 }
 
 .aboutcontent{
@@ -432,19 +465,63 @@ h1{
     margin-right: 100px;
     padding: 50px;
     width: 83%;
-    height: 100%;
+    min-height: 100vh;
+    top: 0;
 }
 
 .abouttitle{
-    color:rgb(1, 133, 133)
+    position: absolute;
+    width: 100%;
+    height: 15%;
+    color:rgb(1, 133, 133);
+    top: 10%;
+    left: 0;
+}
+
+.aboutdescription{
+    position: absolute;
+    top: 25%;
+    left: 0;
+    padding: 20px;
+}
+
+#aboutfooter{
+    height: 8rem;
+    position: relative;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    top: 100vh;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+    border-color: white;
+    border-style: solid;
+    text-align: center;
 }
 
 
 /* END ABOUT PAGE */
 
 /* BEGIN CONTACT PAGE */
+#contactnavbar{
+    width: 100%;
+    height: 4rem;
+    position: absolute;
+    top: 7.8%;
+    background-color:white;
+    color: black;
+    border-width: 5px 0px 5px 0px;
+    border-color: black;
+    border-style: groove;
+    z-index: 100;
+    margin: 0;
+}
+
 #contactcontentwrap{
-    height: 150vh;
+    position: absolute;
+    min-height: 100vh;
+    width: 100%;
 }
 
 .contacttitle{
@@ -455,6 +532,7 @@ h1{
 .contactwrap{
     position: relative;
     height: 100%;
+    top: 5vh;
     color:white;
     background-color: rgb(1, 133, 133);
 }
@@ -466,41 +544,83 @@ h1{
     font-weight: bold;
     background-color: rgb(255, 255, 255);
     color: black;
-    margin-top: 0px;
-    margin-left: 100px;
-    margin-right: 100px;
     padding: 50px;
-    width: 83%;
+    width: 100%;
     height: 100%;
 }
 
 .contactcard{
+    position: relative;
     padding-top: 40px;
     padding-bottom: 40px;
+    width: 75%;
+    left: 11%;
     border-width: 5px;
-    border-style: solid;
+    border-style: double;
+    background-color:rgb(1, 133, 133, .5);
 }
 
 .contactimg{
     height: 200px;
-    padding-left: 20px;
+    border-radius: 80%;
+}
+
+
+#contactfooter{
+    height: 8rem;
+    position: relative;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    top: 135vh;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+    border-color: white;
+    border-style: solid;
+    text-align: center;
 }
 
 /*END CONTACT PAGE */
 
 /* BEGIN NEWS PAGE */
+#newscontainer{
+    position: relative;
+    min-height: 190vh;
+}
+
 #newscontentwrap{
-    height: 150vh;
+    position: absolute;
+    min-height: 190vh;
+    width: 100%;
+    background-color: rgb(1, 133, 133, .5)
+}
+
+#newsnavbar{
+    width: 100%;
+    height: 4rem;
+    position: absolute;
+    top: 4.1%;
+    background-color:white;
+    color: black;
+    border-width: 5px 0px 5px 0px;
+    border-color: black;
+    border-style: groove;
+    z-index: 100;
+    margin: 0;
 }
 
 .newswrap{
     position: relative;
-    height: 100%;
+    min-height: 100%;
+    width: 80%;
+    left: 7%;
+    top: 10vh;
     color:white;
     background-color: rgb(1, 133, 133);
 }
 
-.newscontent{
+ .newscontent{
     position: absolute;
     text-align: center;
     font-size: 20px;
@@ -510,15 +630,19 @@ h1{
     margin-top: 0px;
     margin-left: 100px;
     margin-right: 100px;
-    padding: 50px;
+    padding: 5px;
+    height: 175vh;
     width: 83%;
-    height: 100%;
-}
+    top: -3vh;
+} 
 
 .newstitle{
+    position: absolute;
     text-decoration: underline;
     font-size: 56px;
     font-weight: bold;
+    left: 44%;
+    top: 0;
 }
 
 .newscard{
@@ -531,7 +655,10 @@ h1{
     border-color: black;
     background-color: rgb(255, 255, 255);
     width: 100%;
-    height: 23%;
+    height: 185px;
+    top: 5vh;
+    display: inline-block;
+    margin-bottom: 10px;
 }
 
 
@@ -551,15 +678,30 @@ h1{
     position: absolute;
     text-decoration: underline;
     left: 30%;
-    top: 7%;
+    top: -10%;
 }
 
 .newscardcontent{
     position: absolute;
     text-align: left;
+    height: 100%;
     left: 30%;
-    bottom: 15%;
+    bottom: -25%;
     width: 60%;
 }
 
-/* END NEW PAGE */
+#newsfooter{
+    height: 8rem;
+    position: relative;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    bottom: -180vh;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+    border-color: white;
+    border-style: solid;
+    text-align: center;
+}
+/* END NEWS PAGE */
