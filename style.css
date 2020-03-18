@@ -271,30 +271,32 @@ button:hover:active:after{
 .inventoryheader{
     text-decoration: underline;
     position: absolute;
-    right: 15%;
+    right: 7%;
     z-index: 1;
 }
 
 .inventorycontent{
     position: absolute;
     float: left;
-    width: 40%;
+    width: 37%;
     height: 100%;
-    right: 5%;
-    top: 17%;
+    right: 1%;
+    top: 15%;
     z-index: 1;
 }
 
 #inventorybutton{
     position: absolute;
-    right: 16%;
+    right: 10%;
     top: 80%;
+    z-index: 5;
 }
 
 .inventoryimg{
     position: absolute;
     height: 100%;
-    width: 50%;
+    width: 60%;
+    opacity: .6;
     
 }
 
@@ -349,6 +351,7 @@ h1{
     color: white;
     margin: 0;
     padding: 0;
+    bottom: 0;
     border-top-width: 3px;
     border-bottom-width: 3px;
     border-color: white;
@@ -510,6 +513,53 @@ h1{
     padding: 50px;
     width: 83%;
     height: 100%;
+}
+
+.newstitle{
+    text-decoration: underline;
+    font-size: 56px;
+    font-weight: bold;
+}
+
+.newscard{
+    position: relative;
+    border-style: double;
+    border-width: 3px;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-color: black;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 23%;
+}
+
+
+.newsimg{
+    position: absolute;
+    left: 0;
+    bottom: 3%;
+    height: 80%;
+    width: 20%;
+    border-radius: 50%;
+    border-width: 3px;
+    border-style: solid;
+    margin-bottom: 5px;
+}
+
+.newscardtitle{
+    position: absolute;
+    text-decoration: underline;
+    left: 30%;
+    top: 7%;
+}
+
+.newscardcontent{
+    position: absolute;
+    text-align: left;
+    left: 30%;
+    bottom: 15%;
+    width: 60%;
 }
 
 /* END NEW PAGE */
