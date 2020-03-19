@@ -544,10 +544,10 @@ h1{
 .contactjumbo{
     position: absolute;
     background-image: url(woodwall1.jpg);
+
     text-align: center;
     font-size: 18px;
     font-weight: bold;
-    background-color: rgb(255, 255, 255);
     color: black;
     padding: 25px;
     width: 100%;
@@ -568,9 +568,19 @@ h1{
 .contacttitle{
     position: relative;
     top: -10vh;
-    left: -20vw;
+    left: -20vw;                                    /* this is top left corner/*  
+    /* left: 13vw; */                               /*centered */
     font-size: 64px;
     color: rgb(255, 255, 255);
+}
+
+.contactname{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.job{
+    font-weight: bold;
 }
 
 .contactcard{
@@ -578,19 +588,23 @@ h1{
     padding-top: 40px;
     padding-bottom: 40px;
     width: 25%;
+    height: 100%;
     left: 11%;
-    border-width: 5px;
-    border-style: double;
-    background-color:rgb(0, 0, 0);
+    color: black;
+    background-color:white;
     
 }
 
 #kellycard{
     position: absolute;
+    left: 2%;
+    top: 0;
 }
 
 #artcard{
     position: absolute;
+    top: 0;
+    left: 26%;
 }
 
 .contactimg{
