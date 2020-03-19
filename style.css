@@ -504,9 +504,15 @@ h1{
 /* END ABOUT PAGE */
 
 /* BEGIN CONTACT PAGE */
+#contactlogo{
+    left: 1vw;
+    width: 96.7%;
+}
+
+
 #contactnavbar{
-    width: 100%;
     height: 4rem;
+    width: 100%;
     position: absolute;
     top: 7.8%;
     background-color:white;
@@ -518,10 +524,16 @@ h1{
     margin: 0;
 }
 
+#contactnav{
+    position: absolute;
+    left: 9.87%;
+}
+
 #contactcontentwrap{
     position: absolute;
     min-height: 100vh;
     width: 100%;
+    background-color: rgb(1, 133, 133);
 }
 
 .contacttitlewrap{
@@ -567,9 +579,9 @@ h1{
 
 .contacttitle{
     position: relative;
-    top: -10vh;
-    left: -20vw;                                    /* this is top left corner/*  
-    /* left: 13vw; */                               /*centered */
+    top: -7.1vh;
+    left: -20vw;                                    /*top left corner*/
+    /* left: 13vw; */                               /*centered*/
     font-size: 64px;
     color: rgb(255, 255, 255);
 }
