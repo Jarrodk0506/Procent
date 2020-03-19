@@ -538,7 +538,6 @@ h1{
 
 .contacttitlewrap{
     position: absolute;
-    text-decoration: underline;
     padding-bottom: 10px;
     text-align: left;
     top: 15vh;
@@ -556,7 +555,6 @@ h1{
 .contactjumbo{
     position: absolute;
     background-image: url(woodwall1.jpg);
-
     text-align: center;
     font-size: 18px;
     font-weight: bold;
@@ -584,6 +582,27 @@ h1{
     /* left: 13vw; */                               /*centered*/
     font-size: 64px;
     color: rgb(255, 255, 255);
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+.contactbusiness{
+    position: relative;
+    top: -15.6vh;
+    right: -26.8vw;                                    
+    font-size: 64px;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+.contacthours{
+    position: relative;
+    top: -10vh;
+    left: 29vw;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
 }
 
 .contactname{
