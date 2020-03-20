@@ -54,8 +54,8 @@ button:hover:active:after{
 #homenavbar{
     width: 100%;
     height: 4rem;
-    position: absolute;
-    top: 5.2%;
+    position: relative;
+    top: 0;
     background-color:white;
     color: black;
     border-width: 5px 0px 5px 0px;
@@ -70,7 +70,7 @@ button:hover:active:after{
     height: 30px;
     top: 10%;
     left: 10%;
-    margin: 0;
+    margin-bottom: 5px;
 }
 
 .nav-item{
@@ -91,7 +91,6 @@ button:hover:active:after{
     background-size: 100%;
     height: 62%;
     width: 100%;
-    bottom: -4.5%;
     text-align: center;
     text-decoration: solid;
     opacity: .8;
@@ -212,7 +211,7 @@ button:hover:active:after{
     width: 40%;
     height: 100%;
     left: 5%;
-    top: 25%;
+    top: 20%;
 }
 
 .estimateimg{
@@ -251,13 +250,13 @@ button:hover:active:after{
 .billingheader{
     position: absolute;
     left: 40%;
-    top: -5%;
+    top: -10%;
     text-decoration: underline;
 }
 
 .billingcontent{
     position: absolute;
-    top: 25%;
+    top: 20%;
 }
 
 #billingbutton{
@@ -290,14 +289,14 @@ button:hover:active:after{
     width: 37%;
     height: 100%;
     right: 1%;
-    top: 15%;
+    top: 20%;
     z-index: 1;
 }
 
 #inventorybutton{
     position: absolute;
-    right: 10%;
-    top: 80%;
+    right: 11%;
+    top: 75%;
     z-index: 5;
 }
 
