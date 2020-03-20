@@ -661,15 +661,13 @@ h1{
 
 /*END CONTACT PAGE */
 
+
+
 /* BEGIN NEWS PAGE */
-#newscontainer{
-    position: relative;
-    min-height: 190vh;
-}
 
 #newscontentwrap{
-    position: absolute;
-    min-height: 190vh;
+    position: relative;
+    height: 100%;
     width: 100%;
     background-color: rgb(1, 133, 133, .5)
 }
@@ -677,8 +675,8 @@ h1{
 #newsnavbar{
     width: 100%;
     height: 4rem;
-    position: absolute;
-    top: 4.1%;
+    position: relative;
+    top: 0;
     background-color:white;
     color: black;
     border-width: 5px 0px 5px 0px;
@@ -688,17 +686,8 @@ h1{
     margin: 0;
 }
 
-.newswrap{
-    position: relative;
-    min-height: 100%;
-    width: 80%;
-    left: 7%;
-    top: 10vh;
-    background-color: rgb(1, 133, 133);
-}
-
  .newscontent{
-    position: absolute;
+    position: relative;
     text-align: center;
     font-size: 20px;
     font-weight: bold;
@@ -708,18 +697,19 @@ h1{
     margin-left: 100px;
     margin-right: 100px;
     padding: 5px;
-    height: 175vh;
+    height: 100%;
     width: 83%;
     top: 10vh;
 } 
 
 .newstitle{
-    position: absolute;
+    position: relative;
     text-decoration: underline;
     font-size: 56px;
     font-weight: bold;
-    left: 44%;
-    top: 0;
+    width: 13%;
+    left: 45%;
+    top: 3vh;
 }
 
 .newscard{
@@ -774,7 +764,7 @@ h1{
     color: white;
     margin: 0;
     padding: 0;
-    bottom: -180vh;
+    bottom: 0;
     border-top-width: 3px;
     border-bottom-width: 3px;
     border-color: white;
