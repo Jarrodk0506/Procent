@@ -450,9 +450,9 @@ h1{
     width: 100%;
     color:white;
     background-color: rgb(1, 133, 133);
-    background-image: url(carpet.jpg);
+    background-image: url(carpet2.jpg);
     background-repeat: none;
-    background-size: 100%;
+    background-size: 105%;
 }
 
 .aboutcontent{
@@ -467,23 +467,29 @@ h1{
     margin-right: 100px;
     padding: 50px;
     width: 83%;
-    min-height: 100vh;
-    top: 0;
+    min-height: 95vh;
+    top: 3%;
+    border-radius: 50%;
+    border-width: 5px;
+    border-color: rgb(1, 133, 133);
+    border-style: dotted;
 }
 
 .abouttitle{
     position: absolute;
-    width: 100%;
+    width: 60%;
     height: 15%;
     color:rgb(1, 133, 133);
     top: 10%;
-    left: 0;
+    left: 20%;
+    font-size: 36px;
 }
 
 .aboutdescription{
     position: absolute;
     top: 25%;
-    left: 0;
+    left: 10%;
+    width: 80%;
     padding: 20px;
 }
 
