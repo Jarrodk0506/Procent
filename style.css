@@ -462,26 +462,25 @@ h1{
     font-weight: bold;
     background-color: rgb(255, 255, 255, .6);
     color: black;
-    margin-top: 0px;
+    margin-top: 30px;
     margin-left: 100px;
     margin-right: 100px;
     padding: 50px;
     width: 83%;
-    min-height: 95vh;
+    min-height: 90vh;
     top: 3%;
-    border-radius: 50%;
     border-width: 5px;
     border-color: rgb(1, 133, 133);
-    border-style: dotted;
+    border-style: solid;
 }
 
 .abouttitle{
     position: absolute;
-    width: 60%;
+    width: 80%;
     height: 15%;
     color:rgb(1, 133, 133);
-    top: 10%;
-    left: 20%;
+    top: 7%;
+    left: 10%;
     font-size: 36px;
 }
 
