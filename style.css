@@ -534,7 +534,7 @@ h1{
 
 #contactcontentwrap{
     position: relative;
-    min-height: 100vh;
+    min-height: 101vh;
     width: 100%;
     background-color: rgb(1, 133, 133);
 }
@@ -668,7 +668,7 @@ h1{
 
 #newscontentwrap{
     position: relative;
-    height: 79.5vh;
+    height: 101vh;
     width: 100%;
     background-color: rgba(255, 255, 255);
 
