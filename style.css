@@ -763,6 +763,18 @@ h1{
 
 /* END NEWS PAGE */
 
+/* BEGIN NEWSWALL PAGE */
+
+.newswallcontent{
+    position: relative;
+    background-color: black;
+    height: 100%;
+}
+
+/* END NEWSWALL PAGE */
+
+
+
 
 /* iphoneX */
 @media only screen and (max-width: 375px) {
