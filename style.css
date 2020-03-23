@@ -709,11 +709,15 @@ h1{
     box-sizing: border-box;
 }
 
-#gdlink{
-    height: 18.75%;
+.newsitem:hover{
+    color: rgb(1, 133, 133);
+}
+
+#newslink{
+    height: 25%;
     width: 100%;
     position: absolute;
-    top: 25.1%;
+    top: 25%;
     padding-top: 3%;
     left:0;
     text-decoration: none;
@@ -721,15 +725,15 @@ h1{
     font-size: 20px;
 }
 
-#gdlink:hover{
+#newslink:hover{
     color: rgb(1, 133, 133)
 }
 
 #updatelink{
-    height: 18.75%;
+    height: 25%;
     width: 100%;
     position: absolute;
-    top: 43.8%;
+    top: 50%;
     padding-top: 3%;
     left: 0;
     text-decoration: none;
@@ -742,10 +746,10 @@ h1{
 }
 
 #helplink{
-    height: 18.75%;
+    height: 25%;
     width: 100%;
     position: absolute;
-    top: 62.5%;
+    top: 75%;
     padding-top: 3%;
     left: 0;
     text-decoration: none;
@@ -754,22 +758,6 @@ h1{
 }
 
 #helplink:hover{
-    color: rgb(1, 133, 133)
-}
-
-#newslink{
-    height: 18.75%;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    padding-top: 3%;
-    left: 0;
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
-}
-
-#newslink:hover{
     color: rgb(1, 133, 133)
 }
 
