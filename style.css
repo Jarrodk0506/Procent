@@ -772,7 +772,7 @@ h1{
 }
 
 .newswallcontentheader{
-    background-color: rgb(100, 0, 0);
+    background-color: rgb(128, 0, 0);
     width: 100%;
     padding: 0;
     margin: 0;
@@ -834,7 +834,7 @@ h1{
 }
 
 .updatecontentheader{
-    background-color: rgb(1, 133, 133);
+    background-color: rgb(128, 0, 0);
     border-bottom-width: 2px;
     border-style: solid;
 }
@@ -859,7 +859,7 @@ h1{
 
 .updatewallback:hover{
     text-decoration: none;
-    color: rgb(100, 0, 0);
+    color: rgb(1, 133, 133);
 }
 
 
@@ -877,6 +877,12 @@ h1{
     left: 15%;
     width: 70%;
     height: 60%;
+}
+
+#updatewallbutton{
+    position: relative;
+    top: 25px;
+    left: 40%;
 }
 
 /* END UPDATE WALL */
