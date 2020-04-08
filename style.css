@@ -824,9 +824,8 @@ h1{
 /* END NEWSWALL PAGE */
 
 
-
+/* BEGIN UPDATE WALL */
 .updatecontent{
-    /* background-image: url(marble2.jpg); */
     background-repeat: no-repeat;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -880,7 +879,58 @@ h1{
     height: 60%;
 }
 
+/* END UPDATE WALL */
 
+/* BEGIN HELP WALL */
+
+.helpwallcontent{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85vh;
+}
+
+.helpwallcontentheader{
+    background-color: rgb(1, 133, 133);
+    border-bottom-width: 2px;
+    border-style: solid;
+}
+
+.helpwallheadertext{
+    color: white;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.helpwallback{
+    position: relative;
+    color: black;
+    margin: 0;
+    padding: 0;
+    left: 5%;
+    top: 2.5rem;
+    z-index: 1;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.helpwallback:hover{
+    text-decoration: none;
+    color: rgb(100, 0, 0);
+}
+
+
+.helpwallitemcontent{
+    text-align: center;
+    padding-top: 5%;
+}
+
+.helpwallitem{
+    margin-top: 5%;
+}
+
+/* END HELP WALL */
 
 
 /* iphoneX */
