@@ -768,6 +768,7 @@ h1{
     background-size: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+    min-height: 100vh;
 }
 
 .newswallcontentheader{
@@ -796,7 +797,7 @@ h1{
 
 .newswallheadertext{
     color: white;
-    border-bottom-width: 2px;
+    border-bottom-width: 4px;
     border-color: black;
     border-style: solid;
     text-align: center;
@@ -808,14 +809,16 @@ h1{
 .newswallitem{
     color: rgb(0, 0, 0);
     margin-bottom: 10%;
-    border-top-width: 2px;
+    border-bottom-width: 2px;
     border-color: black;
     border-style: groove;
 }
 
 .newswallitemcontent{
     margin-top: 5%;
+    padding-bottom: 5%;
     text-align: center;
+    font-size: 24px;
 }
 
 /* END NEWSWALL PAGE */
@@ -823,7 +826,7 @@ h1{
 
 
 .updatecontent{
-    background-image: url(marble2.jpg);
+    /* background-image: url(marble2.jpg); */
     background-repeat: no-repeat;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -862,16 +865,19 @@ h1{
 
 
 .updateitemcontent{
-    background-color: rgb(207, 207, 207);
-    margin-top: 5%;
-    padding-top: 20%;
     text-align: center;
-    font-size: 20px;
-    border-width: 2px;
-    border-color: black;
-    border-style: groove;
-    border-radius: 50%;
-    height: 150%;
+    padding-top: 5%;
+}
+
+.updateitem{
+    margin-top: 5%;
+}
+
+.sqlimg{
+    position: relative;
+    left: 15%;
+    width: 70%;
+    height: 60%;
 }
 
 
